@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- main css file -->
+	<link rel="stylesheet" href="./css/style.css">
+
+	<script src="https://kit.fontawesome.com/b9da20f6ee.js" crossorigin="anonymous"></script>
+
+	<!-- main javascript file -->
+	<script src="./javascript/script.js"></script>
+
+	<title>Arju Techsol</title>
+</head>
+
+<body>
+	<header id="Header">
+
+		<div class="logo">
+			<div class="logo-img">
+				<img src="./Images/Arju Techsol logo Colour 32X32.png" alt="Arju Logo">
+			</div>
+			<h1><span class="one">Arju</span> <span class="two">Techsol</span></h1>
+		</div>
+
+		<div class="wrap">
+			<div class="search">
+				<input type="text" class="searchTerm" placeholder="What are you looking for?">
+				<button type="submit" class="searchButton">
+					<i class="fa fa-search"></i>
+				</button>
+			</div>
+		</div>
+
+		<div class="nav-menu">
+			<h1 class="about menu">Sign Up / Sign In</h1>
+			<h1 class="contact menu"><i class="fa-regular fa-user"></i></h1>
+			<h1 class="contact menu"><i class="fa-solid fa-cart-shopping"></i></h1>
+		</div>
+
+	</header>
+
+	<div class="navbar">
+
+		<div class="dropdown">
+			<button class="dropbtn">All Categories</button>
+			<div class="dropdown-content">
+				<a href="#">Option 1</a>
+				<a href="#">Option 2</a>
+				<a href="#">Option 3</a>
+				<a href="#">Option 4</a>
+				<a href="#">Option 5</a>
+				<a href="#">Option 6</a>
+			</div>
+		</div>
+
+		<div class="cate-menu">
+			<li>Home</li>
+			<li>About Us</li>
+			<li>Blog</li>
+			<li>Contact</li>
+		</div>
+
+	</div>
+
+	<div class="slider">
+
+		<div class="myslide fade">
+			<div class="txt">
+				<h1>IMAGE 2</h1>
+				<img src="./Images/about1.jpg" alt="">
+			</div>
+		</div>
+
+		<div class="myslide fade">
+			<div class="txt">
+				<h1>IMAGE 3</h1>
+				<img src="./Images/about2.jpg" alt="">
+			</div>
+		</div>
+
+		<div class="myslide fade">
+			<div class="txt">
+				<h1>IMAGE 4</h1>
+				<img src="./Images/about3.jpg" alt="">
+			</div>
+		</div>
+
+		<div class="myslide fade">
+			<div class="txt">
+				<h1>IMAGE 4</h1>
+				<img src="./Images/about2.jpg" alt="">
+			</div>
+		</div>
+
+		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+		<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+		<div class="dotsbox" style="text-align:center">
+			<span class="dot" onclick="currentSlide(1)"></span>
+			<span class="dot" onclick="currentSlide(2)"></span>
+			<span class="dot" onclick="currentSlide(3)"></span>
+			<span class="dot" onclick="currentSlide(4)"></span>
+		</div>
+	</div>
+
+</body>
+
+</html>
